@@ -112,3 +112,7 @@ exports
 *.cache
 build
 .strapi-updater.json
+
+[submodule "frontend"]
+  path = frontend
+  url = https://github.com/akshat-sachan1/Ayna-Chats-FE
