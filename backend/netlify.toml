@@ -1,0 +1,17 @@
+[build]
+  command = "npm run build"
+  publish = "public"
+
+
+[dev]
+  command = "strapi develop"
+  port = 1337
+  autoLaunch = true
+
+[functions]
+  directory = "netlify/functions"
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/api"
+  status = 200

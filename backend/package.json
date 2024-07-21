@@ -10,6 +10,7 @@
     "strapi": "strapi"
   },
   "dependencies": {
+    "http-proxy-middleware": "^3.0.0",
     "knex": "0.21.18",
     "sharp": "^0.33.4",
     "sqlite3": "^5.0.0",
@@ -25,9 +26,7 @@
     "strapi-utils": "^3.6.11",
     "ws": "^8.18.0"
   },
-  "author": {
-    "name": "A Strapi developer"
-  },
+  "author": "A Strapi developer",
   "strapi": {
     "uuid": "7935221e-d01d-42e4-9ee2-b2cbf1f817c4"
   },
@@ -35,5 +34,8 @@
     "node": ">=10.16.0 <=14.x.x",
     "npm": "^6.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "main": "websocket-server.js",
+  "devDependencies": {},
+  "keywords": []
 }
