@@ -116,3 +116,5 @@ build
 [submodule "frontend"]
   path = frontend
   url = https://github.com/akshat-sachan1/Ayna-Chats-FE
+
+git submodule add https://github.com/akshat-sachan1/Ayna-Chats-FE frontend
